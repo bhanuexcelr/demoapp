@@ -5,12 +5,12 @@ Created on Thu Sep 24 13:01:17 2020
 """
 
 
-
+import sklearn. linear_model.LogisticRegression as LogisticRegression
 import pandas as pd
 import streamlit as st 
-from sklearn.linear_model import LogisticRegression
-from pickle import dump
-from pickle import load
+#from sklearn.linear_model import LogisticRegression
+import pickle.dump as dump
+import pickle.load as load
 
 st.title('Model Deployment: pre- built Logistic Regression')
 
